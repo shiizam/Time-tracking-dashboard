@@ -14,10 +14,19 @@
   --desat-blue: hsl(235, 45%, 61%);
   --pale-blue: hsl(236, 100%, 87%);
   
-
+  /********* Global Style Variables *********/
+  
   --b-radius: 1rem;
   --font-primary: Rubik, sans-serif;
   --body-size: 1.125rem;
+  /********* Card Icon Variables *********/
+
+  --work-icon: url("./assets/icon-work.svg");
+  --play-icon: url("./assets/icon-play.svg");
+  --study-icon: url("./assets/icon-study.svg");
+  --exercise-icon: url("./assets/icon-exercise.svg");
+  --social-icon: url("./assets/icon-social.svg");
+  --care-icon: url("./assets/icon-self-care.svg");
 }
 
 *, ::before, ::after {
