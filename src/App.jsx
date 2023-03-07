@@ -6,9 +6,6 @@ import './index.css'
 import data from './data.json'
 
 
-
-
-
 function App() {
   const [timeframe, setTimeframe] = useState("Weekly")
 

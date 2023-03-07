@@ -56,7 +56,7 @@
   font-size: 13px;
 }
 
-.card-body #ellipsis{
+.card-body .ellipsis{
   grid-column: 2;
   grid-row: 1;
   justify-self: right;

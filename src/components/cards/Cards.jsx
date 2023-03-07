@@ -10,9 +10,9 @@ export const Cards = (props) => {
     <div className='card' id={props.title.replace(/\s+/g, '') + '-bg'}>
       <div className="card-body">
         <p className='card-title'>{props.title}</p>
-        <p className='hours' id='work-hours'>{props.current}hrs</p>
-        <img id='ellipsis' src={ellipsis} alt='ellipsis-icon'/>
-        <span className='previous-total' id='previous'>{selectedTimeFrame} - {props.previous}hrs</span>
+        <p className='hours'>{props.current}hrs</p>
+        <img className='ellipsis' src={ellipsis} alt='ellipsis-icon'/>
+        <span className='previous-total'>{selectedTimeFrame} - {props.previous}hrs</span>
       </div>
     </div>
   </div> 

@@ -19,14 +19,6 @@
   --b-radius: 1rem;
   --font-primary: Rubik, sans-serif;
   --body-size: 1.125rem;
-  /********* Card Icon Variables *********/
-
-  /* --work-icon: url("./assets/icon-work.svg");
-  --play-icon: url("./assets/icon-play.svg");
-  --study-icon: url("./assets/icon-study.svg");
-  --exercise-icon: url("./assets/icon-exercise.svg");
-  --social-icon: url("./assets/icon-social.svg");
-  --care-icon: url("./assets/icon-self-care.svg"); */
 }
 
 *, ::before, ::after {
@@ -141,7 +133,7 @@ h1{
     background-color: var(--desat-blue);
   }
   
-  .card-body #ellipsis{
+  .card-body .ellipsis{
     grid-column: 2;
     grid-row: 1;
   }
