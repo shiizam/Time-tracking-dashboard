@@ -1,0 +1,59 @@
+/********* Profile Card *********/
+.profile-card{
+  background: var(--dark-blue);
+  border-radius: var(--b-radius);
+}
+
+.profile-top{
+  display: flex;
+  background-color: var(--blue);
+  align-items: center;
+  border-radius: var(--b-radius);
+  color: white;
+  padding: 1.8rem;
+}
+
+.profile-top p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: .2rem;
+  color: var(--pale-blue);
+}
+
+.profile-pic{
+  flex: display;
+  justify-self: center;
+  margin-right: 1rem;
+  width: 70px;
+  height: 70px;
+  background-image: url('../../assets/image-jeremy.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+
+.profile-card .profile-top .profile-name h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.date-links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: var(--body-size);
+  font-weight: 300;
+  color: var(--pale-blue);
+}
+
+.date-links span{
+  padding: 1rem;
+}
+
+.date-links:hover{
+  cursor: pointer;
+  color: white;
+}
+

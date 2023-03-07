@@ -1,0 +1,162 @@
+:root {
+  /********* Global Color Variables *********/
+  --blue: hsl(246, 80%, 60%);
+
+  --work: hsl(15, 100%, 70%);
+  --play: hsl(195, 74%, 62%);
+  --study: hsl(348, 100%, 68%);
+  --exercise: hsl(145, 58%, 55%);
+  --social: hsl(264, 64%, 52%);
+  --self-care: hsl(43, 84%, 65%);
+  
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desat-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+  
+
+  --b-radius: 1rem;
+  --font-primary: Rubik, sans-serif;
+  --body-size: 1.125rem;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  font-family: var(--font-primary);
+  background: var(--very-dark-blue);
+  margin: 0 auto;
+  min-width: 375px;
+  max-width: 1440px;
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/********* Desktop Styles *********/
+@media screen and (min-width: 1200px) {
+
+  main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .profile-card{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: 250px;
+  }
+
+  .profile-top{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .profile-pic{
+    align-self: flex-start;
+    margin: 0 0 1rem;
+    width: 85px;
+    height: 85px;
+    padding-bottom: 2rem;
+  }
+
+  .profile-card .profile-top .profile-name h1,p{
+    font-size: 2.5rem;
+    padding-right: 0;
+  }
+
+  .profile-card .profile-top .profile-name p{
+    padding-top: 3rem;
+  }
+
+  .profile-card .profile-top .profile-name h1{
+    padding-bottom: 3rem;
+  }
+
+  .date-links{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #Work-bg{
+    grid-column: 2;
+  }
+  
+  #Play-bg{
+    grid-column: 3;
+  }
+  
+  #Study-bg{
+    grid-column: 4;
+  }
+  
+  #Exercise-bg{
+    grid-column: 2;
+  }
+  
+  #Social-bg{
+    grid-column: 3;
+  }
+  
+  #SelfCare-bg{
+    grid-column: 4;
+  }
+
+  .card{
+    margin-top: 0;
+    padding-top: 2.4rem;
+  }
+  
+  .card .card-body{
+    height: 210px;
+    font-size: 10rem;
+  }
+
+  .card-body:hover{
+    cursor: pointer;
+    background-color: var(--desat-blue);
+  }
+  
+  .card-body #ellipsis{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card-body .card-title{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .card-body .hours{
+    font-size: 3.5rem;
+    font-weight: 300;
+  }
+  
+  .card-body .week-total{
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 16px;
+    justify-self: left;
+  }
+
+  .card-body .previous-total{
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: left;
+  }
+}
