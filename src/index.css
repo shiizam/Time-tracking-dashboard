@@ -21,12 +21,12 @@
   --body-size: 1.125rem;
   /********* Card Icon Variables *********/
 
-  --work-icon: url("./assets/icon-work.svg");
+  /* --work-icon: url("./assets/icon-work.svg");
   --play-icon: url("./assets/icon-play.svg");
   --study-icon: url("./assets/icon-study.svg");
   --exercise-icon: url("./assets/icon-exercise.svg");
   --social-icon: url("./assets/icon-social.svg");
-  --care-icon: url("./assets/icon-self-care.svg");
+  --care-icon: url("./assets/icon-self-care.svg"); */
 }
 
 *, ::before, ::after {

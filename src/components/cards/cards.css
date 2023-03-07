@@ -9,37 +9,37 @@
 /********* Card Background Styles *********/
 
 #Work-bg{
-  background-image: var(--work-icon);
+  background-image: url("./images/icon-work.svg");
   background-color: var(--work);
   background-position: top -10px right 20px;
 }
 
 #Play-bg{
-  background-image: var(--play-icon);
+  background-image: url("./images/icon-play.svg");
   background-color: var(--play);
   background-position: top -6px right 20px;
 }
 
 #Study-bg{
-  background-image: var(--study-icon);
+  background-image: url("./images/icon-study.svg");
   background-color: var(--study);
   background-position: top -6px right 20px;
 }
 
 #Exercise-bg{
-  background-image: var(--exercise-icon);
+  background-image: url("./images/icon-exercise.svg");
   background-color: var(--exercise);
   background-position: top -2px right 20px;
 }
 
 #Social-bg{
-  background-image: var(--social-icon);
+  background-image: url("./images/icon-social.svg");
   background-color: var(--social);
   background-position: top -15px right 20px;
 }
 
 #SelfCare-bg{
-  background-image: var(--care-icon);
+  background-image: url("./images/icon-self-care.svg");
   background-color: var(--self-care);
   background-position: top -13px right 20px;
 }
